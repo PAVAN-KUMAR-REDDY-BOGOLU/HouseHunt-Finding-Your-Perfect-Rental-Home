@@ -32,7 +32,39 @@ Key features:
 
 ## 🚀 How to Run the Project
 
-### 1. Clone the Repository
-```bash
+## ⚙️ Project Setup Instructions
+
+Follow the steps below to run both backend and frontend locally:
+
+1. Clone the Repository
+
 git clone https://github.com/your-username/househunt.git
 cd househunt
+
+2. Setup the Backend
+
+cd backend
+npm install
+
+Create a .env file inside the backend/ directory and add the following:
+
+PORT=5000
+MONGO_URI=your-mongodb-uri
+JWT_SECRET=your-secret
+
+Then run the backend server:
+
+npm start
+
+3. Setup the Frontend
+
+cd ../frontend
+npm install
+
+Create a .env file inside the frontend/ directory and add the following:
+
+VITE_API_URL=http://localhost:5000/api
+
+Then run the frontend development server:
+
+npm run dev
