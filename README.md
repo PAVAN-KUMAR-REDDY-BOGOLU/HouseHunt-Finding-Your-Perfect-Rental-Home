@@ -49,27 +49,4 @@
 
 ## 📁 Project Structure
 
-HOUSEHUNT/
-│
-├── backend/                   # Backend server (Express + MongoDB)
-│   ├── config/                # Database connection and environment setup
-│   ├── controllers/           # Business logic for routes (e.g., create listing, user login)
-│   ├── middlewares/           # Middleware for auth, error handling, etc.
-│   ├── routes/                # Route definitions (e.g., /api/users, /api/houses)
-│   ├── schemas/               # Mongoose models and schema definitions
-│   ├── uploads/               # Directory to store uploaded files (e.g., images)
-│   ├── .env                   # Environment variables for backend
-│   ├── .gitignore             # Git ignored files list for backend
-│   ├── index.js               # Entry point of the Express server
-│   ├── package.json           # Backend dependencies and scripts
-│   └── package-lock.json      # Backend lock file
-│
-├── frontend/                  # Frontend client (React + Vite)
-│   ├── public/                # Static files (e.g., index.html, favicon)
-│   ├── src/                   # Main React source code (components, pages, etc.)
-│   ├── .gitignore             # Git ignored files list for frontend
-│   ├── package.json           # Frontend dependencies and scripts
-│   ├── package-lock.json      # Frontend lock file
-│   └── README.md              # Optional: frontend-specific documentation
-│
-├── README.md                  # Main project documentation (this file)
+<pre> ## 📁 Project Structure ```plaintext HOUSEHUNT/ ├── backend/ # Backend server (Express + MongoDB) │ ├── config/ # Database connection and environment setup │ ├── controllers/ # Business logic for routes (e.g., create listing, user login) │ ├── middlewares/ # Middleware for auth, error handling, etc. │ ├── routes/ # API route definitions (e.g., /api/users, /api/houses) │ ├── schemas/ # Mongoose models and schema definitions │ ├── uploads/ # Directory to store uploaded images/files │ ├── .env # Environment variables for backend │ ├── .gitignore # Git ignored files list for backend │ ├── index.js # Entry point for the Express server │ ├── package.json # Backend dependencies and scripts │ └── package-lock.json # Backend lock file │ ├── frontend/ # Frontend client (React + Vite) │ ├── public/ # Static assets (e.g., index.html, favicon) │ ├── src/ # Main React source code (components, pages, etc.) │ ├── .gitignore # Git ignored files list for frontend │ ├── package.json # Frontend dependencies and scripts │ ├── package-lock.json # Frontend lock file │ └── README.md # Optional frontend-specific documentation │ └── README.md # Main project documentation ``` </pre>
