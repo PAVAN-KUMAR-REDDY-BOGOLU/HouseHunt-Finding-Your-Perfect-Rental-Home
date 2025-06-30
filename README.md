@@ -1,4 +1,4 @@
-# 🏠 HouseHunt: Your Smart Real Estate Companion
+# 🏠 HouseHunt: Finding Your Perfect Rental Home
 
 > A full-stack MERN web application designed to simplify the way people search, rent, and list homes — tailored for buyers, sellers, renters, and real estate professionals.
 
